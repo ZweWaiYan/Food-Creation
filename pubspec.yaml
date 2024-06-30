@@ -1,0 +1,29 @@
+name: food_creation
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  carousel_slider: ^4.2.1
+  connectivity_plus: ^6.0.3
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:    
+    - assets/area.png
+    - assets/category.png
+    - assets/ingredient.png
+    - assets/youtube.png
